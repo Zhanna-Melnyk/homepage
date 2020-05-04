@@ -16,3 +16,9 @@
     width: 40%;
     margin: auto;
 }
+
+.highlighted {
+    padding: 0.5em;
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}
