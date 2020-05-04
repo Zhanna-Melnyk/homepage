@@ -1,0 +1,13 @@
+.contacts li a .icon {
+    fill: currentColor;
+    height: 1.1428rem;
+    vertical-align: text-bottom;
+}
+
+.contacts li .twitter:hover {
+    color: #1DA1F2;
+}
+
+.contacts li .instagram:hover {
+    color: #833AB4;
+}
