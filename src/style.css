@@ -11,3 +11,8 @@
 .contacts li .instagram:hover {
     color: #833AB4;
 }
+
+.divider.fat {
+    width: 40%;
+    margin: auto;
+}
