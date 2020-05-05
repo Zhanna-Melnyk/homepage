@@ -34,3 +34,12 @@
 .timeline > li p:first-child {
     margin-top: 5px;
 }
+
+.small-font {
+    font-size: 10px;
+}
+
+.small-font::selection {
+    font-size: 10px;
+    color: #D4AF37;
+}
