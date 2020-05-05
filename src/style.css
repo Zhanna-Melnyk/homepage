@@ -1,5 +1,5 @@
 ::selection {
-    background-color: #D4AF37;
+    background-color: #d4af37;
 }
 
 .contacts li a .icon {
@@ -9,11 +9,11 @@
 }
 
 .contacts li .twitter:hover {
-    color: #1DA1F2;
+    color: #1da1f2;
 }
 
 .contacts li .instagram:hover {
-    color: #833AB4;
+    color: #833ab4;
 }
 
 .divider.fat {
@@ -41,5 +41,40 @@
 
 .small-font::selection {
     font-size: 10px;
-    color: #D4AF37;
+    color: #d4af37;
+}
+
+.languages {
+    display: inline;
+}
+
+.ru {
+    margin-left: 10px;
+}
+
+.flag {
+    height: 26px;
+    position: absolute;
+    top: 54px;
+    opacity: 0;
+    transform: rotate(90deg) translateY(-9px);
+}
+
+.russia-flag {
+    margin-left: 5px;
+    transition: transform 0.3s, opacity 0.15s ease-in-out;
+}
+
+.ru:hover .russia-flag {
+    transform: rotate(0deg) translate(0px, -14px);
+    opacity: 1;
+}
+
+.usa-flag {
+    transition: transform 0.3s, opacity 0.15s ease-in-out;
+}
+
+.us:hover .usa-flag {
+    transform: rotate(0deg) translate(0px, -14px);
+    opacity: 1;
 }
