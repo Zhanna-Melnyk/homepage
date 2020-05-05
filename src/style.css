@@ -1,3 +1,7 @@
+::selection {
+    background-color: #D4AF37;
+}
+
 .contacts li a .icon {
     fill: currentColor;
     height: 1.1428rem;
