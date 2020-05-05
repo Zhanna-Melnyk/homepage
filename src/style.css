@@ -23,6 +23,10 @@
     border-radius: 4px;
 }
 
-.avatar {
-    position: relative;
+.personal-life .details input {
+    margin-left: 0;
+}
+
+.timeline > li p:first-child {
+    margin-top: 5px;
 }
