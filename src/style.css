@@ -2,6 +2,22 @@
     background-color: #d4af37;
 }
 
+.background-bigmac {
+    background-image: url(./bigmac.png);
+}
+
+.background-gold {
+    background-image: url(./gold.png);
+}
+
+#background .page::before {
+    display: none;
+}
+
+#background .page {
+    padding: 2.5em;
+}
+
 .contacts li a .icon {
     fill: currentColor;
     height: 1.1428rem;
@@ -77,4 +93,13 @@
 .us:hover .usa-flag {
     transform: rotate(0deg) translate(0px, -14px);
     opacity: 1;
+}
+
+.bg-change {
+    text-decoration: underline;
+}
+
+.bg-change:hover {
+    color: #d4af37;
+    cursor: pointer;
 }
