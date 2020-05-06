@@ -3,13 +3,14 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Résumé</title>
+  <title>Donald Trump</title>
+  <link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
   <link rel="stylesheet" href="./src/style.css">
 </head>
 
 <body>
-  <main>
+  <main id="background" class="background-gold">
     <article>
       <div class="page" style="border-color: midnightblue;">
         <div class="stackable grid">
@@ -287,7 +288,7 @@
                   </li>
                 </ul>
               </section>
-              <section>
+              <section class="personal-life">
                 <h3>PERSONAL LIFE</h3>
                 <ul class="timeline">
                   <li class="details highlighted">
@@ -296,7 +297,6 @@
                       <em>1998 ― now</em>
                       <br>
                       <strong>Last marriage</strong>
-                      <br>
                       <sup>
                         <em>(I hope)</em>
                       </sup>
@@ -596,8 +596,13 @@
             <div class="six wide column">
               <section>
                 <h3>LANGUAGES</h3>
-                <p>
-                  🇺🇸 ENGLISH 🇷🇺 РУССКИЙ
+                <p class="languages us">
+                  🇺🇸 ENGLISH
+                  <img class="flag usa-flag" src="./src/usa-flag.png" alt="usa-flag">
+                </p>
+                <p class="languages ru">
+                  🇷🇺 РУССКИЙ
+                  <img class="flag russia-flag" src="./src/russia-flag.png" alt="russia-flag">
                 </p>
               </section>
               <section>
@@ -619,10 +624,13 @@
                 <h3>LIKES 😃</h3>
                 <p>
                   <a href="https://www.youtube.com/watch?v=u_aLESDql1U" rel="external">BILLIONS</a>
-                  FILET-O-FISH BIG MAC
+                  FILET-O-FISH
+                  <span class="bg-change" id="big-mac">BIG MAC</span>
                   <a href="https://www.youtube.com/watch?v=RDrfE9I8_hs" rel="external">CHINA</a>
-                  QUARTER POUNDER DIET COKE TARIFFS BIBLE ARTOF DEAL PATRIOTS BEAUTIFUL MODELS GOLD REAL ESTATE WAR
-                  PROTESTERS CONSTRUCTION RUSSIANS BANKS SPORTS WOMEN MEXICO RED HAT KOREANS GOLF EVERYBODY
+                  QUARTER POUNDER DIET COKE TARIFFS BIBLE ARTOF DEAL PATRIOTS BEAUTIFUL MODELS
+                  <span class="bg-change" id="gold">GOLD</span>
+                  REAL ESTATE WAR PROTESTERS CONSTRUCTION RUSSIANS BANKS SPORTS WOMEN MEXICO RED HAT KOREANS GOLF
+                  EVERYBODY
                   <sup>
                     <a href="https://www.youtube.com/watch?v=0f9ysmciWUk" rel="external">[1]</a>
                     <a href="https://www.youtube.com/watch?v=TTdmKaXAfAs">[2]</a>
@@ -643,9 +651,9 @@
                   OFTEN WIN ALL THE COURT SUITS
                 </p>
               </section>
-              <section class="timeline">
+              <section>
                 <h3>EDUCATION</h3>
-                <ul>
+                <ul class="timeline">
                   <li>
                     <p><em>2011</em></p>
                     <p>
@@ -681,6 +689,7 @@
       </div>
     </article>
   </main>
+  <script src="./src/app.js"></script>
 </body>
 
 </html>
